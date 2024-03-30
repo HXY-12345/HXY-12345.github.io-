@@ -1,12 +1,3 @@
-let myImage = document.querySelector("img");
-myImage.onclick = function () {
-  let mySrc = myImage.getAttribute("src");
-  if (mySrc === "./pictures/picture1.jpg") {
-    myImage.setAttribute("src", "./pictures/picture2.png");
-  } else {
-    myImage.setAttribute("src", "./pictures/picture1.jpg");
-  }
-};
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 

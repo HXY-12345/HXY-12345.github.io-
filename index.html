@@ -104,6 +104,15 @@
             randomNumber = Math.floor(Math.random() * 100) + 1;
         }
 
+        let myImage = document.querySelector("img");
+        myImage.onclick = function () {
+        let mySrc = myImage.getAttribute("src");
+        if (mySrc === "./pictures/picture1.jpg") {
+            myImage.setAttribute("src", "./pictures/picture2.png");
+            } else {
+            myImage.setAttribute("src", "./pictures/picture1.jpg");
+        }
+};
 
 
       </script>
